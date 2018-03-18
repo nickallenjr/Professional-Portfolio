@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Kurale|Raleway|Rammetto+One');
+
+#navi {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: relative;
+	z-index: 100;
+	width: 100%
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #555;
+	color: white;
+	text-decoration: none
+}
+
+.aboutTitle {
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+}
+
+.contactTitle {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 50px;
+}
+
+.sampleProjectsTitle {
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	color: white;
+}
+
+.aboutBody {
+	padding: 10px;
+	height: 454px;
+	background-color: rgb(255,255,255);
+}
+
+.aboutText {
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px
+}
+.parallax {
+	/* The image used */
+	background-image: url(../../images/mongodb.jpg);
+	/* Set a specific height */
+	min-height: 350px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax2 {
+	/* The image used */
+	background-image: url(../../images/node.jpg);
+	/* Set a specific height */
+	min-height: 300px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.iconColumn {
+	margin-right: 10px;
+}
+
+.contactBody {
+	height: 250px;
+	background-color: rgb(27,36,47);
+}
+
+#carousel {
+	height: 700px;
+	width: auto;
+	background-color: rgb(27,36,47);
+}
+
+.carousel3 > .slide {
+	padding-top: 43px;
+}
+
+.unCarousel {
+	width: 50%;
+
+}
+
+.carousel1 {
+	float: left;
+	width: 25%;
+	margin-left: 160px;
+	margin-right: 25px;
+}
+
+.carousel2 {
+	float: left;
+	width: 25%;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.carousel3 {
+	float: left;
+	width: 25%;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.projectText {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: white
+}
+
+.projectSubtext {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: white
+}
+
+.iconGrid {
+	top: 300px;
+}
+
+.myLogo {
+	margin: auto;
+	width: 300px;
+	float: right;
+}
+
+.iconRow {
+	margin-top: 10px;
+}
+
+.carousel-inner {
+	width: 25%;
+	margin-top: 25%;
+}
+/*Hover effects for Images below*/
+
+.container {
+	position: relative;
+	width: 50%;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.image {
+	margin: auto;
+	/* color: rgb(161, 156, 156); */
+	opacity: 1;
+	/* display: block; */
+	width: 50%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+	opacity: 0.3;
+}
+
+.container:hover .middle {
+	opacity: 1;
+}
