@@ -120,11 +120,6 @@ const thirdItems = [
 	}
 ];
 
-
-
-
-
-
 export default class Homepage extends React.Component {
 
 	constructor(props) {
@@ -186,19 +181,25 @@ export default class Homepage extends React.Component {
 					<p className='sampleProjectsTitle title'>SAMPLE PROJECTS</p>
 					<Divider horizontal>---</Divider>
 					<div className='unCarousel carousel1'>
-						<p className='projectText'>Band Together</p>
-						<p className='projectSubtext'>Website that allows users to search for their favorite artists and get bio info as well as upcoming tour dates, with the option to purchase tickets, and albums w/ included spotify mini player.</p>
-						<UncontrolledCarousel items={firstItems} />
+						<a href='https://band-together2017.herokuapp.com/'>
+							<p className='projectText'>Band Together</p>
+							<p className='projectSubtext'>Website that allows users to search for their favorite artists and get bio info as well as upcoming tour dates, with the option to purchase tickets, and albums w/ included spotify mini player.</p>
+							<UncontrolledCarousel items={firstItems} />
+						</a>
 					</div>
 					<div className='unCarousel carousel2'>
-						<p className='projectText'>Diplopia Exam</p>
-						<p className='projectSubtext'>This website was created to help healthcare providers correctly diagnosis patients who they believe may be suffering from a condition known as Diplopia using the Edinburgh Algorithm.</p>
-						<UncontrolledCarousel items={secondItems} />
+						<a href='https://limitless-tundra-74258.herokuapp.com/'>
+							<p className='projectText'>Diplopia Exam</p>
+							<p className='projectSubtext'>This website was created to help healthcare providers correctly diagnosis patients who they believe may be suffering from a condition known as Diplopia using the Edinburgh Algorithm.</p>
+							<UncontrolledCarousel items={secondItems} />
+						</a>
 					</div>
 					<div className='unCarousel carousel3'>
-						<p className='projectText'>GoT Trivia</p>
-						<p className='projectSubtext'>Timed Game of Thrones trivia game that keeps score and displays it at the end of the game.</p>
-						<UncontrolledCarousel items={thirdItems} />
+						<a href='https://nickallenjr.github.io/Trivia-Game/'>
+							<p className='projectText'>GoT Trivia</p>
+							<p className='projectSubtext'>Timed Game of Thrones trivia game that keeps score and displays it at the end of the game.</p>
+							<UncontrolledCarousel items={thirdItems} />
+						</a>
 					</div>
 				</div>
 				<div className='parallax'>
